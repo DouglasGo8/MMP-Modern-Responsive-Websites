@@ -1,5 +1,5 @@
 /*=================================================================
-                        DEFAULT VALUES
+                              DEFAULT VALUES
                         
                   Font Family         : Roboto Condensed
                   Greenish Blue       : #34c6d3 (Buttons, Icons, Links & Backgrounds
@@ -9,7 +9,146 @@
                   Block               : #000     
   ================================================================ */
 
+html,
 body {
-  font-family: "Roboto Condensed";
-  color: #41464b
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h3 {
+  color: #41464b;
+  text-transform: uppercase;
+}
+
+p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#home {
+  height: 100%;
+}
+
+#home-cover {
+  height: 100%;
+  background-image: url("../assets/images/bg-home.jpg");
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#home-heading h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px 0px 20px 0px;
+  text-transform: uppercase;
+}
+
+.bg-parallax {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.btn-general {
+  border-color: #fff;
+  border-width: 2px;
+  border-radius: 1;
+  padding: 12px 26px 12px 26px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  background-color: #fff;
+  color: #41464b;
+}
+
+#home-cover,
+#home-heading,
+#home-btn {
+  animation-duration: .5s;
+}
+
+#home-cover {
+  animation-delay: .1s;
+}
+
+#home-heading {
+  animation-delay: .5s;
+}
+
+#home-btn {
+  animation-delay: 1s;
+}
+
+.content-box {
+  padding: 60px 0 60px 0;
+}
+
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: #34c6d3;
+  margin: 0 auto 30px auto;
+}
+
+.service-item {
+  padding: 20px 0 20px 0;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.service-item-icon i {
+  color: #34c6d3;
+  float: left;
+  padding: 15px;
+  margin-right: 25px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+  color: #fff;
+  background-color: #34c6d3;
+}
+
+.service-item-title h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.service-item-desc p {
+  margin: 0;
+  padding-left: 85px;
 }
