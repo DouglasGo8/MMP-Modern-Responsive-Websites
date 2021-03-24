@@ -269,6 +269,10 @@ h4.team-member-designation {
   margin-top: 10px;
 }
 
+.social-icon i {
+  font-size: 17px;
+}
+
 .icon-gray i {
   color: #64707b
 }
@@ -428,4 +432,53 @@ ul.pricing-spec li p {
 
 .client {
   padding: 40px 0;
+}
+
+footer {
+  background-color: #41464b;
+  padding-top: 20px;
+  border-top: 5px solid rgba(0, 0, 0, 0.1);
+  height: 405px;
+}
+
+
+#contact-left h3 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+#contact-left p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#contact-info {
+  background-image: url("../assets/images/world-map.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+address {
+  color: #fff;
+}
+
+address strong,
+#phone-fax-email strong {
+  letter-spacing: 1px;
+}
+
+.icon-white i {
+  color: #fff;
+}
+
+form .form-control {
+  background: transparent;
+  border-radius: 0;
+  border-color: #fff;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  color: #fff;
 }

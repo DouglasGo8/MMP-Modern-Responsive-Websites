@@ -7,7 +7,6 @@
 - Basic is sketch of web site, with visual representation of elements on a website.
 
 ## Webutils Resources
-
 - [w3Schools](https://www.w3schools.com/)
 - [jQuery](https://api.jquery.com)
 - [Fav Icons](https://realfavicongenerator.net)
