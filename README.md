@@ -21,4 +21,5 @@
 - [Unsplash Free Wallpapers](https://unsplash.com)
 - [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup)
 - [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2)
+- [Counter-UP Jquery Plugin](https://ciromattia.github.io/jquery.counterup/demo/index.html)
 - HCor Color Options https://coolors.co/16697a-489fb5-82c0cc-ede7e3-ffa62b

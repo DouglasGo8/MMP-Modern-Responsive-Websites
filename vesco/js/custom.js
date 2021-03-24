@@ -18,15 +18,29 @@ $(function () {
     autoplay: true,
     smartSpeed: 700,
     loop: true,
-    autoplayHoverPause: true
+    autoplayHoverPause: true,
   });
+
   $("#customers-testimonials").owlCarousel({
     items: 1,
     autoplay: true,
     smartSpeed: 700,
     loop: true,
-    autoplayHoverPause: true
+    autoplayHoverPause: true,
   });
-  
 
+  $("#clients-list").owlCarousel({
+    items: 6,
+    autoplay: true,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true,
+  });
+});
+
+$(function () {
+  $(".counter").counterUp({
+    delay: 10,
+    time: 2000,
+  });
 });
