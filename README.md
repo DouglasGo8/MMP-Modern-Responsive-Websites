@@ -18,4 +18,6 @@
 - [Bootstrap](https://getbootstrap.com/)
 - [Animate Css](https://animate.style/)
 - [Wow Animation](https://wowjs.uk/)
+- [Unsplash Free Wallpapers](https://unsplash.com)
+- [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup)
 - HCor Color Options https://coolors.co/16697a-489fb5-82c0cc-ede7e3-ffa62b
