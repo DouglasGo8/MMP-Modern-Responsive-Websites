@@ -1,4 +1,4 @@
-/*=================================================================
+/*========================================================================================
                               DEFAULT VALUES
                         
                   Font Family         : Roboto Condensed
@@ -7,7 +7,7 @@
                   Blue Bayoux         : #64707b (Paragraphs)
                   White               : #fff    (Text With Black Backgrounds)
                   Block               : #000     
-  ================================================================ */
+  ======================================================================================== */
 
 html,
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", Sans-serif;
 }
 
 h3 {
@@ -229,3 +229,47 @@ p {
   cursor: zoom-in;
 }
 
+.team-member {
+  margin: 0 15px;
+}
+
+.team-member-info {
+  padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 2px;
+}
+
+h4.team-member-designation {
+  color: #34c6d3;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.social-list {
+  padding-left: 0;
+}
+
+.social-list li {
+  list-style: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+.icon-gray i {
+  color: #64707b
+}
+
+.social-icon i:hover {
+  color: #34c6d3
+}
