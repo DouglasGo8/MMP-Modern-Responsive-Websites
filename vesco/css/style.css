@@ -96,6 +96,16 @@ p {
   color: #fff;
 }
 
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 1px;
+  display: none;
+}
+
 #home-cover,
 #home-heading,
 #home-btn {
@@ -522,6 +532,7 @@ form .form-control {
 
 .navbar {
   padding: 10px 0;
+  transition: all .5s ease-in-out;
 }
 
 .vesco-top-nav {
@@ -537,7 +548,7 @@ form .form-control {
   float: right;
 }
 
-.navbar-nav li a {
+.navbar-nav>li>a {
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
@@ -545,8 +556,8 @@ form .form-control {
   font-weight: 700;
 }
 
-.navbar-nav li a:hover,
-.navbar-nav li a:focus {
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
   background: none;
   color: #34c6d3;
 }
@@ -563,4 +574,8 @@ form .form-control {
 
 .navbar-collapse {
   max-height: none !important;
+}
+
+.navbar-fixed-top ul.navbar-nav>li.active>a {
+  color: #34c6d3
 }
