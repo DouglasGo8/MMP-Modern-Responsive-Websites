@@ -109,18 +109,22 @@ p {
 #home-cover,
 #home-heading,
 #home-btn {
+  -webkit-animation-duration: .5s;
   animation-duration: 0.5s;
 }
 
 #home-cover {
-  animation-delay: 0.1s;
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
 }
 
 #home-heading {
-  animation-delay: 0.5s;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
 }
 
 #home-btn {
+  -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
 
@@ -233,10 +237,14 @@ p {
 }
 
 .img-wrapper img {
-  transition: transform 0.5s ease;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform 0.5s ease, -webkit-transform .5s ease;
 }
 
 .img-wrapper img:hover {
+  -webkit-transform: scale(1.5);
   transform: scale(1.5);
   cursor: zoom-in;
 }
@@ -536,6 +544,7 @@ form .form-control {
 
 .navbar {
   padding: 10px 0;
+  -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
 
